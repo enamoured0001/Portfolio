@@ -37,7 +37,7 @@ const home = () => {
           loop={true}
           /> 
           </h1>
-            <p className='flex pt-4'>I'm  passionate about creating user-friendly interfaces and solving complex problems .i'm proficient in html,css,javascript and react .i'm always learning and exploring new techonologies. </p>
+            <p className='flex pt-4'>I'm  passionate about creating user-friendly interfaces and solving complex problems .i'm proficient in html,css,javascript and react .i'm always thrive to learn  and explore more about intelligence and techonologies. </p>
             <p className='pt-5 font-bold'>Available On</p>
             <div className='flex gap-x-4 pt-4'>
             <a href="mailto:enamouredinsaan@gmail.com"><img src={Gmail} alt="linkedin" className='rounded-full hover:scale-110 duration-200 h-10 w-10' /></a>
