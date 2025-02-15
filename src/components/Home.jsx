@@ -9,7 +9,7 @@ import { useState } from 'react'
 
 
 
-const home = () => {
+const Home = () => {
   const [showproject, setShowproject] = useState(false);
   
   const handleClick2 = () => {
@@ -61,4 +61,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
