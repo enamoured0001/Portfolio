@@ -51,7 +51,7 @@ const Skills = () => {
             I'M <span className='text-blue-600'>Specialized</span> in
             </h1>
             </div>
-         <div className=' grid lg:grid-cols-4 lg:grid-rows-2 pl-20 pt-5  md:grid-cols-3 md:grid-rows-4 sm:grid-cols-1 sm:grid-rows-7    gap-y-6 gap-x-8'>
+         <div className=' grid lg:grid-cols-4 lg:grid-rows-2 lg:pl-20 md:pl-20 pl-10 pt-5  md:grid-cols-3 md:grid-rows-4 sm:grid-cols-1 sm:grid-rows-7    gap-y-6 gap-x-8'>
          <Box1
            mohit={Html}
            title="Html"

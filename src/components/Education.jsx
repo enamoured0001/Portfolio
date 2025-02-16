@@ -46,7 +46,7 @@ const Education = () => {
            <span className='text-black'>Educational</span> Qualification 
          </h1>
          </div>
-      <div className='flex lg:flex-row md:flex-row sm:flex-col  contain-style flex-col lg:pl-20 pl-5  pt-5  gap-y-6 gap-x-4'>
+      <div className='flex lg:flex-row md:flex-row sm:flex-col  contain-style flex-col lg:pl-20 pl-2 pt-5  gap-y-6 gap-x-4'>
       <Box
         mohit={Dav}
         title="Matriculation"

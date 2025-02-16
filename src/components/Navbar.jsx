@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 
 const navbar = () => {
-  const [menu,setMenu]=useState(true);
+  const [menu,setMenu]=useState(false);
   return (
     <div>
     <div className=' flex shadow-md justify-between fixed top-0 left-0 w-full bg-white '>
@@ -31,7 +31,7 @@ const navbar = () => {
             </button></Link>
                  </ul>
                  <div className='md:hidden h-2 pt-5 pr-5' onClick={()=>setMenu(!menu)} >
-                {   menu?<MdClose  />: <HiOutlineMenu />}
+                {   menu?<MdClose className='h-5 w-15 ' />: <HiOutlineMenu className='h-5 w-15'/>}
                 {
                   menu &&(
                     <ul className='md:hidden flex flex-col  h-screen w-screen text-xl bg-gray-100 pt-10 pl-5 gap-y-3 align-centre text-black'>

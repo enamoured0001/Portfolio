@@ -21,7 +21,7 @@ const Home = () => {
   return (
 
     <div class="Home">
-      <div className='bg-yellow-50 lg:flex-row md:flex-col  sm:flex-col-reverse flex-col-reverse gap-y-5  pl-5  lg:pl-20 md:pl-10 sm:pl-10 pt-40 pb-10 flex justify-center gap-x-30 '>
+      <div className='bg-yellow-50 lg:flex-row md:flex-col  sm:flex-col-reverse flex-col-reverse gap-y-5  pl-5  lg:pl-20 md:pl-10 sm:pl-10  lg:pt-40 md:pt-40 pt-20 pb-10 flex justify-center gap-x-30 '>
         <div>
         <h1 className='text-2xl'>
           Hello it's Me </h1>
@@ -31,7 +31,7 @@ const Home = () => {
             <h1 className='text-2xl'> And i am a        
                  <ReactTyped
                  className='font-bold pl-3 text-blue-600'
-          strings={["Software Devloper ","Progammer","Coder"]}
+          strings={["Software Devloper ","Progammer","Coder","Graphic designer"]}
           typeSpeed={40}
           backSpeed={50}
           loop={true}
@@ -50,8 +50,8 @@ const Home = () => {
             </button></a>
            
         </div>
-        <div className='pr-30' >
-        <img  className='h-100 w-260   rounded-full'  src={Mohit} alt="" ></img>
+        <div className='lg:pr-30 md:pr-30 pr-5 ' >
+        <img  className='lg:h-100 lg:w-260 md:h-100 md:w-260 h-90 w-400   rounded-full'  src={Mohit} alt="" ></img>
         </div  >
       
         
