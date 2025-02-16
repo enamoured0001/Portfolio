@@ -37,7 +37,7 @@ function Box({ mohit,title,percentage, result, image }) {
 }
 
 
-const education = () => {
+const Education = () => {
   return (
     <div class="Education">
     <div  className="flex  justify-center  pr-30 flex-col space-x-4">
@@ -75,4 +75,4 @@ const education = () => {
 
 }
 
-export default education
+export default Education
